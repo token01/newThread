@@ -3,6 +3,7 @@ package com.token01.thread;
 import java.util.Random;
 
 /**
+ * 无法解决共享对象的更新问题
  * Created by token01 on 2016/3/5.
  */
 public class ThreadLocalTest {
