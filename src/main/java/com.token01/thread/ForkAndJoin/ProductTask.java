@@ -7,9 +7,10 @@ import java.util.concurrent.RecursiveAction;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by token01 on 2016/4/24.
+ *
  * 使用10来作为参考大小（ReferenceSize），如果一个任务需要更新大于10个元素，它会将这个列表分解成为两部分，
  * 然后分别创建两个任务用来更新各自部分的产品价格。
+ * @author abel-sun
  */
 public class ProductTask extends RecursiveAction{
 
@@ -28,7 +29,7 @@ public class ProductTask extends RecursiveAction{
         this.last = last;
         this.increment = increment;
     }
-
+     @Override
     protected void compute() {
         if(last - first < 10)
             updatePrices();
@@ -49,7 +50,9 @@ public class ProductTask extends RecursiveAction{
         }
     }
 
-    //生成随机产品列表
+    /**
+     * 生成随机产品列表
+     */
     static class ProductListGenerator{
         public List<Product> generate(int size){
             List<Product> ret = new ArrayList<Product>();

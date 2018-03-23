@@ -13,7 +13,7 @@ public class CountTask extends RecursiveTask<Integer>{
        private static final int THRESOLD = 2;  //阈值，控制任务的规模
        private int start;
        private int end;
-
+    // 创建一个构造方法
     public CountTask(int start, int end){
           this.start = start;
           this.end  = end;
@@ -47,13 +47,13 @@ public class CountTask extends RecursiveTask<Integer>{
     }
 
     public static void main(String[] args) {
-        //ForkJoinTask需要通过ForkJoinPool来执行
+        //ForkJoinTask需要通过ForkJoinPool来执行 创建一个对象
         ForkJoinPool forkJoinPool = new ForkJoinPool();
 
         //生成一个计算任务，计算1+2+3+4的和
         CountTask sumTask = new CountTask(1,4);
 
-        //通过Future来执行任务能获得线程运行结果
+        //通过Future来执行任务能获得线程运行结果 获取回调结果
         Future<Integer> result = forkJoinPool.submit(sumTask);
 
         try {
