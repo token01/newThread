@@ -4,6 +4,8 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 /**
+ * 返回一个包含指定数目线程的线程池
+ * ，如果任务数量多于线程数目，那么没有没有执行的任务必须等待，直到有任务完成为止。
  * @author abel-sun 2016/4/25.
  */
 public class TaskExwcutionWebServer {

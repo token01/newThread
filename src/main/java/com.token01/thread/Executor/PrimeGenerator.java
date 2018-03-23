@@ -15,6 +15,7 @@ public class PrimeGenerator implements  Runnable{
     //volatile  BigInteger p = BigInteger.ONE;  不能这样，这样会出现线程安全问题，与i ++
     //保证变量的可见性
     private volatile boolean cancelled;
+    @Override
     public void run() {
          BigInteger p = BigInteger.ONE;
         while (!cancelled){
