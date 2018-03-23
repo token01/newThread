@@ -1,7 +1,7 @@
 package com.token01.thread;
 
 /**
- * Created by token01 on 2016/1/27.
+ * @author abel-sun 2016/1/27.
  * 守护线程
  */
 public class DaemonThread extends  Thread{

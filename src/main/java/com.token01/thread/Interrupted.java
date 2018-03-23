@@ -1,7 +1,7 @@
 package com.token01.thread;
 
 /**
- * Created by token01 on 2016/3/3.
+ * @author abel-sun 2016/3/3.
  */
 public class Interrupted {
     public static  void main(String[] args){

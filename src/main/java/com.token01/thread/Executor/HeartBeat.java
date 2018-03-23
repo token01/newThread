@@ -6,7 +6,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by token01 on 2016/4/26.
+ * @author abel-sun 2016/4/26.
  * 使用newScheduledThreadPool来模拟心跳机制
  */
 public class HeartBeat {

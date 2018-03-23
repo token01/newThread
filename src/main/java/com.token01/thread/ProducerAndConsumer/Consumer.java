@@ -1,7 +1,7 @@
 package com.token01.thread.ProducerAndConsumer;
 
 /**
- * Created by token01 on 2016/8/18.
+ * @author abel-sun 2016/8/18.
  */
 public class Consumer implements Runnable{
     private EventStorage storage;

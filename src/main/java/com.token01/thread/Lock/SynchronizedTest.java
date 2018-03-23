@@ -1,7 +1,7 @@
 package com.token01.thread.Lock;
 
 /**
- * Created by token01 on 2016/3/20.
+ * @author abel-sun 2016/3/20.
  */
 public class SynchronizedTest {
 

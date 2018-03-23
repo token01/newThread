@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by token01 on 2016/8/18.
+ * @author abel-sun 2016/8/18.
  */
 public class JoinTest implements  Runnable{
     @Override

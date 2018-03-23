@@ -1,7 +1,7 @@
 package com.token01.thread;
 
 /**
- * Created by token01 on 2016/3/3.
+ * @author abel-sun 2016/3/3.
  * 关于CurrentThread的点
  */
 public class CurrentThread {

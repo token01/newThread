@@ -4,8 +4,13 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-/**
- * Created by token01 on 2017/2/13.
+/** PriorityQueue  创建一个完整的二叉树
+ * 优先队列
+ * @author abel-sun
+ *
+ *  ①优先队列中不能存放空元素。
+    ②压入元素后如果数组的大小不够会进行扩充，上面的queue其实就是一个默认初始值为11的数组（也可以赋初始值）。
+    ③offer元素的主要调整逻辑在 siftUp ( i, e )函数中。下面看看 siftUp(i, e) 函数到底是怎样实现的。
  */
 public class MyPriorityQueue {
     public static void main(String[] args) {

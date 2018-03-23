@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 
 /**
- * Created by token01 on 2017/8/5.
+ * @author abel-sun 2017/8/5.
  */
 public class DownloadBuffer implements Closeable{
     //当前Buffer中缓冲的数据相对于整个存储文件的公交车偏移

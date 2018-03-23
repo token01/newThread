@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * Created by token01 on 2016/3/31.
+ * @author abel-sun 2016/3/31.
  * /**
  * /CopyOnWriteArrayList会先复制一个集合副本，当对集合进行修改时普遍的上修改的是副本里的值，
  * 修改完后再将原因集合的引用指向这个副本，避免抛出ConcurrentModificationException异常

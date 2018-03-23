@@ -10,7 +10,7 @@ import java.nio.channels.FileChannel;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by token01 on 2017/8/5.
+ * @author abel-sun 2017/8/5.
  */
 public class Storage implements Closeable, AutoCloseable{
     private final RandomAccessFile storeFile;

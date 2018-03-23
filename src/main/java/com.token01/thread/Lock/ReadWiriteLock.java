@@ -1,7 +1,7 @@
 package com.token01.thread.Lock;
 
 /**
- * Created by token01 on 2016/3/23.
+ * @author abel-sun 2016/3/23.
  * 读写锁的简单实现
  * 读写锁：读读共存   读写不能共存  写写不能共存
  */

@@ -1,7 +1,7 @@
 package com.token01.thread.countDownLatch;
 
 /**
- * Created by token01 on 2016/4/14.
+ * @author abel-sun 2016/4/14.
  */
 public class TaskRunnable implements Runnable {
     public void run() {

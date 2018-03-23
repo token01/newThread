@@ -7,7 +7,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * Created by token01 on 2016/1/27.
+ * @author abel-sun 2016/1/27.
  * 多TimerTask及延时的测试
  */
 public class manyTimerTask  {

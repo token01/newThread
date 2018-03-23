@@ -3,7 +3,7 @@ package com.token01.thread.Executor;
 import java.util.concurrent.*;
 
 /**
- * Created by token01 on 2017/8/7.
+ * @author abel-sun 2017/8/7.
  */
 public class ThreadPoolDeadLockAvoidance {
     private final ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(

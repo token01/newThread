@@ -15,7 +15,7 @@ import java.nio.channels.ReadableByteChannel;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * Created by token01 on 2017/8/5.
+ * @author abel-sun 2017/8/5.
  */
 public class DownloadTask implements Runnable {
     private final long lowerBound;

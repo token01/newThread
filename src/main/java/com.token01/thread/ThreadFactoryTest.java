@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by token01 on 2016/8/18.
+ * @author abel-sun 2016/8/18.
  *
  * 封装对象创建过程的面向对象的设计模式
  * 工厂模式

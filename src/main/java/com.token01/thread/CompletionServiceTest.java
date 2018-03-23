@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 /**
- * Created by token01 on 2016/3/20.
+ * @author abel-sun 2016/3/20.
  * 启动10个线程，哪个先运行完就返回那个结果
  */
 public class CompletionServiceTest {

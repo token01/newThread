@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by token01 on 2016/4/27.
+ * @author abel-sun 2016/4/27.
  */
 public class PrimeGenerator implements  Runnable{
 

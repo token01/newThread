@@ -1,7 +1,7 @@
 package com.token01.thread;
 
 /**
- * Created by token01 on 2017/6/14.
+ * @author abel-sun 2017/6/14.
  */
 public class AddShutdownHookTest {
     public static void main(String[] args) {

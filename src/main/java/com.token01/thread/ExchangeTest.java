@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Created by token01 on 2016/3/28.
+ * @author abel-sun 2016/3/28.
  * 用于实现两个人之间的数据交换，每个人在完成一定的事务后想与对方交换数据，第一个先拿出数据的人将一直等待第二个人拿着数据到时才能彼此交换
  */
 public class ExchangeTest {

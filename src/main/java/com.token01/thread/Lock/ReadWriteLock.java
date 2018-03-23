@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * Created by token01 on 2016/3/21.
+ * @author abel-sun 2016/3/21.
  * 读写锁的使用
  */
 public class ReadWriteLock {

@@ -1,7 +1,7 @@
 package com.token01.thread;
 
 /**
- * Created by token01 on 2016/4/4.
+ * @author abel-sun 2016/4/4.
  *
  * 静态类成员变量虽然可以在不同的线程之间共享，
  * 但是，根据Java规范定义的内存模型，

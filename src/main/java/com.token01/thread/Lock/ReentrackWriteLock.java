@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by token01 on 2016/3/23.
+ * @author abel-sun 2016/3/23.
  * 写锁重入
  * 前提条件：持有写锁
  */

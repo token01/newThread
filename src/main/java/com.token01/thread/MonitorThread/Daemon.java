@@ -3,7 +3,8 @@ package com.token01.thread.MonitorThread;
 import java.util.concurrent.ThreadFactory;
 
 /**
- * Created by token01 on 2017/2/18.
+ * @author abel-sun
+ * 守护线程
  */
 public class Daemon extends Thread {
 

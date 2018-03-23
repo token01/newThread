@@ -1,7 +1,8 @@
 package com.token01.thread.MonitorThread;
 
 /**
- * Created by token01 on 2017/2/18.
+ * 监控线程
+ * @author abel-sun
  */
 public class MonitorManager {
     //监控线程状态

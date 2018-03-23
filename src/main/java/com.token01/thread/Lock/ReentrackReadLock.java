@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by token01 on 2016/3/23.
+ * @author abel-sun 2016/3/23.
  * 读锁重入
  * 条件：当前线程没有写操作或写请求，必须持有读线程（不管是否有读请求）
  */

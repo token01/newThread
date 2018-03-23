@@ -1,7 +1,7 @@
 package com.token01.thread.Example;
 
 /**
- * Created by token01 on 2017/8/6.
+ * @author abel-sun 2017/8/6.
  */
 public class BigFileDownloaderMain {
     public static void main(String[] args) throws Exception {

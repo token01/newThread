@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by token01 on 2016/8/18.
+ * @author abel-sun 2016/8/18.
  * 生产者-消费者
  */
 public class EventStorage {

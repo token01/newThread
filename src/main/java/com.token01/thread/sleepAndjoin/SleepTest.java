@@ -2,11 +2,17 @@ package com.token01.thread.sleepAndjoin;
 
 
 /**
- * Created by token01 on 2016/6/3.
  * 验证sleep具有不释放锁的特点
+ * @author abel-sun
  */
 public class SleepTest {
-
+    public static void main(String[] args) throws InterruptedException {
+        ThreadB b = new ThreadB();
+        ThreadA a = new ThreadA(b);
+        a.start();
+        ThreadC c = new ThreadC(b);
+        c.start();   //threadB.bService();方法只在5秒后才运行，说明sleep具有不释放锁的特点
+    }
     static class ThreadA extends  Thread{
         private ThreadB b;
         public ThreadA(ThreadB b){
@@ -45,17 +51,10 @@ public class SleepTest {
         public ThreadC(ThreadB threadB){
             this.threadB = threadB;
         }
-
         public void run() {
             threadB.bService();
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
-           ThreadB b = new ThreadB();
-           ThreadA a = new ThreadA(b);
-           a.start();
-           ThreadC c = new ThreadC(b);
-           c.start();   //threadB.bService();方法只在5秒后才运行，说明sleep具有不释放锁的特点
-    }
+
 }
