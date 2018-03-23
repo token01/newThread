@@ -11,6 +11,7 @@ public class LockTest {
     public static  void init(){
         final Outprint outprint= new Outprint();
         new Thread(new Runnable() {
+            @Override
             public void run() {
                 try {
                     while (true) {
@@ -26,6 +27,7 @@ public class LockTest {
 
 
         new Thread(new Runnable() {
+            @Override
             public void run() {
                 try {
                     while (true) {

@@ -14,12 +14,14 @@ public class ReadWriteLock {
       final   DataSave ds = new DataSave();
         for (int i = 0; i <= 10;i ++) {
             new Thread(new Runnable() {
+                @Override
                 public void run() {
                     ds.put((long)(Math.random()*1000));
                 }
             }).start();
 
             new Thread(new Runnable() {
+                @Override
                 public void run() {
                     ds.get();
                 }

@@ -6,7 +6,8 @@ import java.util.concurrent.Future;
 import java.util.concurrent.RecursiveTask;
 
 /**
- * Created by token01 on 2016/4/23.
+ * 并行开发编程
+ * @author token01
  */
 public class CountTask extends RecursiveTask<Integer>{
        private static final int THRESOLD = 2;  //阈值，控制任务的规模
@@ -17,7 +18,7 @@ public class CountTask extends RecursiveTask<Integer>{
           this.start = start;
           this.end  = end;
     }
-
+    @Override
     protected Integer compute() {
         int sum = 0;
         //判断任务是否已经足够小了

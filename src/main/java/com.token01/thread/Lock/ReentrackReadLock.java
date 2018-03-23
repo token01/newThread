@@ -40,15 +40,16 @@ public class ReentrackReadLock implements Runnable {
         mapReadLock.put(readThread, getReadThreadCount(readThread) + 1);
     }
 
-    public void unReadLock(){
+    public void unReadLock() {
         Thread thread = Thread.currentThread();
-        if(getReadThreadCount(thread) == 1)
+        if (getReadThreadCount(thread) == 1)
             mapReadLock.remove(thread);
         else
-            mapReadLock.put(thread,getReadThreadCount( thread) -1);
+            mapReadLock.put(thread, getReadThreadCount(thread) - 1);
         notifyAll();
     }
 
+    @Override
     public void run() {  //等于readLock
         Thread readThread = Thread.currentThread();
         if (!isCanGetReadAccess(readThread)) {

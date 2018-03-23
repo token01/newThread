@@ -20,7 +20,6 @@ public class ThreadLocalTestImprove {
 
     public static void main(String[] args) {
 
-
         MyTest myTest =new MyTest();
         for (int i = 0; i < 2; i++) {
         singleThreadPool.execute(myTest);
