@@ -12,7 +12,9 @@ public class ExchangeTest {
     public static void main(String[] args) {
         ExecutorService service = Executors.newCachedThreadPool();
         final Exchanger exchanger = new Exchanger();
+
         service.execute(new Runnable() {
+            @Override
             public void run() {
                 try {
                     String token01 = "token01";
@@ -30,6 +32,7 @@ public class ExchangeTest {
         });
 
         service.execute(new Runnable() {
+            @Override
             public void run() {
                 try {
                     String kpop = "kpop";
